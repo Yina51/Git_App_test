@@ -19,8 +19,13 @@ function add(a, b, c=10) {
 }
 
 function multiply(a, b) {
-    return a * b;
-    
+    return a * b;   
+}
+
+function login (username, password) {
+
+}if (username !== undefined  && password !== undefied) {
+    // 인증처리
 }
 
 
