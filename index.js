@@ -1,6 +1,14 @@
 /*
     index.html을 위한 js 파일
 */
-function add(a, b) {
-    return a + b;
+function add(a, b, c) {
+    if (c !== undefined) {
+        return a + b;
+    }
+}
+
+function substract(a,b) {
+    if (a > b) {
+        return a - b;
+    } else b - a;
 }
